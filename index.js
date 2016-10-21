@@ -7,8 +7,8 @@ var baseurl = process.argv[3];
 
 // CONFIGURATON SECTION: EDIT THESE! :)
 var api_key = 'CHANGEME';
-var concurrency = 15;
-var maxRequests = 1000;
+var concurrency = process.argv[4] || 100;
+var maxRequests = parseInt(process.argv[5], 10) || 500;
 
 /*
  * Called after every request returns.
