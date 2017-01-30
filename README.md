@@ -1,5 +1,7 @@
 # Pelias loadtest
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pelias/loadtest.svg)](https://greenkeeper.io/)
+
 ## Usage
 
 `node index.js [file with URL fragments] [endpoint]`
